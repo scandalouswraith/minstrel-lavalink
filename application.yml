@@ -50,6 +50,8 @@ plugins:
       youtube: true
       lrcLib: true
     spotify:
+      clientId: "${SPOTIFY_CLIENT_ID}"
+      clientSecret: "${SPOTIFY_CLIENT_SECRET}"
       countryCode: "US"
       playlistLoadLimit: 3
       albumLoadLimit: 2
