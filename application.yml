@@ -59,3 +59,8 @@ plugins:
       - youtube
       - deezer
 
+logging:
+  level:
+    root: INFO
+    dev.lavalink.youtube: DEBUG
+    com.sedmelluq.discord.lavaplayer.tools.ExceptionTools: DEBUG
