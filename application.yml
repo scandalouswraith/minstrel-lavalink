@@ -52,7 +52,6 @@ plugins:
     spotify:
       clientId: "${SPOTIFY_CLIENT_ID}"
       clientSecret: "${SPOTIFY_CLIENT_SECRET}"
-      preferAnonymousToken: true
       customTokenEndpoint: "http://spotify-tokener.railway.internal:8080/api/token"
       countryCode: "US"
       playlistLoadLimit: 3
